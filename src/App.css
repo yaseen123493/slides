@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Button {
+  border-radius: 5px;
+  border: 0px;
+  background-color: #dbeafe;
+  height: 60px;
+  width: 90px;
+  margin: 6px;
+  border-radius: 9px;
+  text-align: center;
+}
+.image {
+  width: 12px;
+  margin-right: 4px;
+}
+.list {
+  list-style-type: none;
+}
+.listContainer {
+  height: 200px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  height: 100vh;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+}

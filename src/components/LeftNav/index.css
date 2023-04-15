@@ -1,0 +1,15 @@
+.NewButton {
+  border-radius: 5px;
+  border: 0px;
+  background-color: #dbeafe;
+  height: 200px;
+  width: 200px;
+  margin: 6px;
+  border-radius: 9px;
+  text-align: center;
+}
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
